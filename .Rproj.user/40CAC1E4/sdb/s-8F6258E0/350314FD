@@ -1,0 +1,16 @@
+{
+    "contents" : "Package: premod\nTitle: Premodellind Routines\nVersion: 0.1\nAuthors: Rajesh P <rajesh@serendio.com>\nDescription: Contains functions which doespremodelling routines like Graphical\n    inspection,Transformations,imputations,etc\nDepends:\n    R (>= 3.1.1)\nLicense: serendio\nLazyData: true\n",
+    "created" : 1414755407475.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "412868467",
+    "id" : "350314FD",
+    "lastKnownWriteTime" : 1414756903,
+    "path" : "~/Dropbox/premod/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "dcf"
+}
