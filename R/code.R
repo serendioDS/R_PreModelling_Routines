@@ -144,6 +144,11 @@ my.deviate <- function(col.pos.x,Deviate=0,MeanAbsDeviation=1,MeanSqDev=0) {
 }
 
 
+#'@title mean absolute Deviations (mad.d)
+#'@description This functions gives the mean absolute deviation of a vector
+#'@param Numeric column position x in the dataframe
+#'@return mean absolute deviation value
+#'@export 
 mad.d <- function(col.poss) {
   
   temp <- my.deviate(col.pos = col.poss,Deviate = 0,MeanAbsDeviation = 1,MeanSqDev = 0)
@@ -153,6 +158,11 @@ mad.d <- function(col.poss) {
 }
 
 
+#'@title mean square Deviations (msd.d)
+#'@description This functions gives the mean square deviation of a vector
+#'@param Numeric column position x in the dataframe
+#'@return mean square deviation value
+#'@export 
 msd.d <- function(col.poss) {
   
   temp <- my.deviate(col.pos = col.poss,Deviate = 0,MeanAbsDeviation = 0,MeanSqDev = 1)
